@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "repository": {
-    "type": "git",
+    "type": "git", 
     "url": "git+https://github.com/harryitc/learn-nodejs-basic-harryitc.git"
   },
   "author": "",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/harryitc/learn-nodejs-basic-harryitc#readme",
   "dependencies": {
     "express": "4.18.2"
-  }
+  },
+  "type": "module"
 }
