@@ -30,7 +30,21 @@ Neu ben trai chay duoc, thi ben phai khong chay
 # Video 9: Get Method
 
 # Video 10: Routes Parameter
+- Dung await phai co async tren ham, no moi thuc hien duoc
+- await pool.execute truyen vao 2 tham so
+  + cho nen la, chi co the dung [0] hoac [1]  
+  + vidu:
+    + let getHompage = async (req, res) => {
+        const [rows, fields] = await pool.execute('SELECT * FROM users') }
+        return res.render('index.ejs', { dataUser: rows })
+    => vi du tren tra ve rows va fields
+* Day duoc goi la `js destructuring`
+- ghi đúng SELECT * FROM users vì ta đã đặt ten table: là users
 
+- vi du: router.get('/detail/user/:id', homeController.getDetailPage)
+    + :id : duoc goi la `query params`
+
+- Dung promise
 # Video 11: Form
 
 # Video 12: POST Method
