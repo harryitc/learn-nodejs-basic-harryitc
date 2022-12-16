@@ -60,7 +60,7 @@ app.use(express.json());
 
 - type = submit
 code: `<button type="submit" class="btn-submit">Submit</button>`
-Nếu chúng ta để type = "submit" browser sẽ hiểu rằng các bạn đang muốn gửi rwq lên server.
+Nếu chúng ta để type = "submit" browser sẽ hiểu rằng các bạn đang muốn gửi request lên server.
 Cho nên chúng ta sẽ dùng submit
 
 - METHOD: post
