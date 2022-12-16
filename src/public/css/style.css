@@ -29,3 +29,14 @@ body {
 a {
   text-decoration: none;
 }
+.create-user-container {
+  margin: 15px;
+  text-align: center;
+}
+.create-user-container label {
+  display: block;
+}
+.create-user-container .btn-submit {
+  margin-top: 15px;
+  cursor: pointer;
+}

@@ -6,8 +6,7 @@
 # Video 6: View Engines
 - day la cai thu vien: 
 npm install --save-exact body-parser@1.20.1 nodemon@2.0.20 @babel/core@7.20.5 @babel/node@7.20.5 @babel/preset-env@7.20.2
-- cau hinh babel
-Cau hinh Babel compiler de viet duoc view engine va bien dich duoc code javascript
+- cau hinh babel compiler de viet duoc view engine va bien dich duoc code javascript.
 Babel don gian chi la giup chung ta bien dich code javascript tren toan bo cac trinh duyet. Vi moi browser la khac nhau nen cach viet javascript khac nhau.
 Cho nen cai ten ES (ECMASciprt) duoc ra doi de cho code javasciprt dap ung tat ca cac trinh duyet. Hien tai (nam 2022) nhieu trinh duyet dang ho tro ES5(ES version 5). Hien tai thi cung da ra version 6 (ES6) (ra doi nam 2015). Nhung, 1 so trinh duyet thi ho tro ES6, 1 so khong.
 Nhu vay, truong hop ma cac ban viet code dua tren ES6 (hien tai thi code javasciprt da dung ES6 kha la nhieu roi) thi se khong dap ung duoc tat ca cac trinh duyet.
@@ -46,7 +45,29 @@ Neu ben trai chay duoc, thi ben phai khong chay
 
 - Dung promise
 # Video 11: Form
+- get data from client and update on server => process
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+- Khong can tai packages body-parser
+  + O video nay, chung ta se khong can install, vi body-parser ho tro truoc cac project truoc 2017
+- Express ho tro `body-parser` version 4.16.0, Tai thoi diem toi viet, version: <b>4.18.2</b>
+- Khi install Express, thi chung da cai dat cac `dependencies` cua `body-parser` roi.
+  + Cho nen, chung ta khong can tai nua.
 
+- type = submit
+code: `<button type="submit" class="btn-submit">Submit</button>`
+Neu chung ta de type = "submit" browser se hieu rang cac ban dang muon gui req len server.
+Cho nen chung ta se dung submit 
+
+- METHOD: post
+  + get data from client to create/update data on serverside 
+
+- Them 1 kien thuc moi: Server Rendering & Client Rendering
+Co the search them de biet them chi tiet. :D
+
+- res.redirect('PATH')
+Chuyen huong ve trang chu
+PATH: link ban muon chuyen huong toi
 # Video 12: POST Method
 
 # Video 13: CRUD

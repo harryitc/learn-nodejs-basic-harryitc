@@ -10,6 +10,11 @@ const port = process.env.PORT || 8080
 
 console.log('>>>> check port: ', port)
 
+// hỗ trợ gửi data từ client đến server
+// => lấy được data từ phía client để xử lý
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
+
 // setup view engine
 configViewEngine(app)
 // init Web route
