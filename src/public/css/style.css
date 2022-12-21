@@ -40,3 +40,21 @@ a {
   margin-top: 15px;
   cursor: pointer;
 }
+.td-form {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.update-user-container {
+  padding: 15px;
+  text-align: center;
+}
+
+.update-user-container label {
+  display: block;
+}
+
+.btn-save {
+  margin-top: 15px;
+  cursor: pointer;
+}

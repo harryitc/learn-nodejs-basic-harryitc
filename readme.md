@@ -17,11 +17,10 @@ Như vậy, trường hợp mà các bạn viết code dựa trên ES6 (hiện t
 # Video 7: Static Files
 - static files
 
-- Use .env (dot env)
-Muốn sử dụng .env, phải cài packages, "const port = process.env.PORT;"
-Đây là cấu hình file môi trường `.env`
-npm install --save-exact dotenv@16.0.3
-const port = process.env.PORT || 8080
+- Sử dụng .env (dot env) và cấu hình môi trường
+Muốn sử dụng .env, phải cài packages. 
+"const port = process.env.PORT;" -> Đây là cấu hình file môi trường `.env`
+`npm install --save-exact dotenv@16.0.3` và `const port = process.env.PORT || 8080`
 nghĩa là: nếu process.env.PORT bị undefined hay 1 lỗi gì đó nó sẽ sử dụng port 8080 thay thế.
 Nếu bên trái chạy được thì bên phải không chạy.
 => Đây được gọi là 1 cách backup code.
@@ -72,6 +71,10 @@ Có thể search thêm để biết thêm chi tiết. :D
 - res.redirect('PATH')
 Chuyển hướng về trang chủ
 PATH: link bạn muốn chuyển hướng tới
+
+- Tại sao khi nhấn submit lại chạy vòng vòng.
+Đó là nó đang lấy dữ liệu từ database
+
 # Video 12: POST Method
 
 # Video 13: CRUD
