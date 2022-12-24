@@ -76,7 +76,7 @@ PATH: link bạn muốn chuyển hướng tới
 Đó là nó đang lấy dữ liệu từ database
 
 # Video 12: POST Method
-
+- JSON bản chất là 1 object
 # Video 13: CRUD
 
 # Video 14: REST Api
